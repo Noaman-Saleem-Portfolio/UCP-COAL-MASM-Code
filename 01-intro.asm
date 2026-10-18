@@ -17,7 +17,10 @@ start:
     ;and ax, bx 
     ;or ax, bx
     ;xor ax, bx
-    xor bx, bx
+    ;xor bx, bx
+               
+    ;exchange or swap values           
+    xchg ax, bx
     
     mov ax, 4c00h
     int 21h
